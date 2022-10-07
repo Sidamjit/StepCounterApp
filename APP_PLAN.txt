@@ -1,0 +1,26 @@
+Components used:
+-ion-spinner for splash screen
+-ion-icon for walking icon
+-ion-card to display information in style
+-ion-label to display text
+-ion-badge to display numeric values
+-ion-item for space to write stuff at
+-ion-button to interact with the app 
+-ion-col alignment on top of each other
+-sideMenu ease of navigation
+
+
+
+
+
+Screens:
+-Loading Screen #1					DONE
+-Home Screen #2						DONE
+	* All stats
+-Instruction Screen #3				
+-StepLength Screen #4				DONE
+-Body setup screen #5				DONE
+-Motivation quote screen #6
+
+THATS A WRAP
+
