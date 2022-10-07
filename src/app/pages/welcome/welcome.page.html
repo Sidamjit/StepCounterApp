@@ -1,0 +1,93 @@
+<ion-header >
+
+    <div class="flex-header">
+      <ion-icon name="walk-outline" size="large"></ion-icon>
+    </div>
+
+</ion-header>
+
+<ion-content >
+  
+
+  <div class="logo">
+    <ion-label>
+      STEP COUNTER
+    </ion-label>
+  </div>
+
+  <div class="flex-center2" >
+    <ion-col class="flex-center2">
+        <ion-label class="title">
+          Live Activity Stats:
+        </ion-label>
+      <ion-card color="dark" class="flex-card">
+
+        <ion-card-header>
+          <ion-card-title >
+            Steps Taken:
+          </ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content class = "flex-content-center">
+          <ion-item color="dark">
+            <ion-label>Today:   </ion-label>
+            <ion-badge color="primary" class="badge">
+              2,456
+            </ion-badge>
+          </ion-item>
+        </ion-card-content>
+        <ion-button color="warning" size="full">Reset</ion-button>
+      </ion-card>
+
+
+      <ion-card color="dark" class="flex-card">
+
+        <ion-card-header>
+          <ion-card-title>
+            Kms Walked:
+          </ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content class = "flex-content-center">
+          <ion-item color="dark">
+            <ion-label>Today:   </ion-label>
+            <ion-badge color="primary" class="badge">
+              1.2kms
+            </ion-badge>
+          </ion-item>
+
+          
+        </ion-card-content>
+        <ion-button color="warning" size="full">Reset</ion-button>
+        <ion-button color="secondary" fill="clear" size="full">Personalize Your Step Length</ion-button>
+      </ion-card>
+
+      <ion-card color="dark" class="flex-card">
+
+        <ion-card-header>
+          <ion-card-title>
+            Calories burnt:
+          </ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content class = "flex-content-center">
+          <ion-item color="dark">
+            <ion-label>Today:   </ion-label>
+            <ion-badge color="primary" class="badge">
+              762KJ
+            </ion-badge>
+          </ion-item>
+
+          
+        </ion-card-content>
+        <ion-button color="warning" size="full">Reset</ion-button>
+        <ion-button color="secondary" fill="clear" size="full">Body settings</ion-button>
+      </ion-card>
+
+      <div class = "trackerToggle">
+        <ion-label>Step Tracking:</ion-label>
+        <ion-toggle [enableOnOffLabels]="true"></ion-toggle>
+      </div>
+    </ion-col>
+  </div>
+</ion-content>
