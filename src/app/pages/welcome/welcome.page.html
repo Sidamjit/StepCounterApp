@@ -62,7 +62,8 @@
           
         </ion-card-content>
         <ion-button color="warning" size="full">Reset</ion-button>
-        <ion-button color="secondary" fill="clear" size="full">Personalize Your Step Length</ion-button>
+        <ion-button color="secondary" fill="clear" size="full" (click)="stepLength()">
+          Personalize Your Step Length</ion-button>
       </ion-card>
 
       <ion-card color="dark" class="flex-card">
@@ -84,12 +85,13 @@
           
         </ion-card-content>
         <ion-button color="warning" size="full">Reset</ion-button>
-        <ion-button color="secondary" fill="clear" size="full">Body settings</ion-button>
+        <ion-button color="secondary" fill="clear" size="full" (click)="bodySetup()">
+          Body settings</ion-button>
       </ion-card>
-
+      <ion-button color="success" fill="outline"  margin="10%" (click)="motivation()">Motivation</ion-button>
       <div class = "trackerToggle">
         <ion-label>Step Tracking:</ion-label>
-        <ion-toggle [enableOnOffLabels]="true"></ion-toggle>
+        <ion-toggle [enableOnOffLabels]="true" [(ngModel)]="status" (ionChange)="startTracker()"></ion-toggle>
       </div>
     </ion-col>
   </div>
