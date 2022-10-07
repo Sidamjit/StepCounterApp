@@ -8,6 +8,9 @@ Components used:
 -ion-button to interact with the app 
 -ion-col alignment on top of each other
 -sideMenu ease of navigation
+-ion-header top bit of everypage after loading
+-ion-toolbar method of differentiating a grid of buttons or items on the header
+
 
 
 
