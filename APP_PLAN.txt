@@ -10,7 +10,8 @@ Components used:
 -sideMenu ease of navigation
 -ion-header top bit of everypage after loading
 -ion-toolbar method of differentiating a grid of buttons or items on the header
-
+-ion-textarea used for big texts like instructions, and it can change card size as needed
+-ion-toggle a minimal way of letting app user know if step tracking is on or not
 
 
 
